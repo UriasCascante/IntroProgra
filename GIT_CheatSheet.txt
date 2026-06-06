@@ -1,0 +1,40 @@
+GIT Cheat Sheet
+git init --> Inicializar repositorio
+
+
+Conectar a GitHub
+git config user.name "UriasCascante" 
+git config user.email "direccion"
+git remote add origin "url de github" #origin es el nombre que le estoy poniendo a este repo remoto, puede ser cualquier nombre
+
+Datos:
+UriasCascante
+ugcascante@gmail.com
+zWMhNprfb72KkPs
+https://github.com/UriasCascante/IntroProgra.git
+
+
+Subir archivos al git remoto (github)
+git status #Muestra el estado de los archivos en el repositorio
+git add nombreArchivo #agrega el archivo de forma temporal
+git commit -m "mensaje" #agrega el archivo de forma definitiva el -m es para agregar mensaje
+git push -u origin master #esta sube los archivos commit al repo remoto, master es la rama de trabajo en la que estamos. 
+
+
+Jalar Archivos:
+git clone URL #jala todo el repositorio
+git pull origin master #trae los archivos nuevos o con cambios
+
+
+Branches o Ramales
+git branch # me dice en que rama estoy
+git branch nombre #me crea una rama con el nombre especificado
+git branch -m mombreviejo nombrenuevo # renombrar rama
+git checkout nombre #cambio de rama
+git branch -d nombre #borrar rama
+touch "nombre" #crea un archivo
+
+
+Unificar ramas
+git diff master rama1 #muestra las diferencias la rama 1 con respecto a la rama 2
+git merge ramaOrigen ramaDestino #para hacer merge yo debo estar ubicado en la rama destino o la rama a actualizar
