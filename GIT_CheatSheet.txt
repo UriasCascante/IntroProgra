@@ -38,3 +38,5 @@ touch "nombre" #crea un archivo
 Unificar ramas
 git diff master rama1 #muestra las diferencias la rama 1 con respecto a la rama 2
 git merge ramaOrigen ramaDestino #para hacer merge yo debo estar ubicado en la rama destino o la rama a actualizar
+
+https://git-scm.com/cheat-sheet
