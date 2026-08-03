@@ -7,13 +7,6 @@ git config user.name "UriasCascante"
 git config user.email "direccion"
 git remote add origin "url de github" #origin es el nombre que le estoy poniendo a este repo remoto, puede ser cualquier nombre
 
-Datos:
-UriasCascante
-ugcascante@gmail.com
-zWMhNprfb72KkPs
-https://github.com/UriasCascante/IntroProgra.git
-
-
 Subir archivos al git remoto (github)
 git status #Muestra el estado de los archivos en el repositorio
 git add nombreArchivo #agrega el archivo de forma temporal
