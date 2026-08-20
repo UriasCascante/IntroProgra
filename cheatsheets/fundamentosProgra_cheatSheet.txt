@@ -1,0 +1,115 @@
+*********************************
+PROGRAMACION ESTRUCTURADA
+*********************************
+
+IF/ELSE:
+
+Para Python:
+if condicion:
+	insrtrucciones
+else:
+	insrtrucciones
+	
+Para C++
+if(condicion){
+	instrucciones;
+}else{
+	insrtrucciones;
+}
+
+elif --> contraccion para elseif - para anidar if/else
+
+*********************************
+
+SWITCH
+sirve para simplificar la anidacion de if/else, se puede crear estructura de casos.
+
+Para Python:
+No aplica habria que generar if/else/elif anidados
+
+Para C++
+switch(variable){
+	case condicon 1:
+		instrucciones 1;
+		break;
+	case condicion 2:
+		instrucciones 2;
+		break;
+	default:  #cuando no cumle las condiciones de los casos definidos
+		instrucciones;
+}
+
+Ejemplo para determinar cuando cuales meses tiene 31 dias y cuales 30 (C++)
+
+#definimos alguna variables
+int maes=7;
+int dias;
+#entramos en la estructura de switch
+
+switch(mes){
+	case 1,3,5,7,8,10,12:
+		dias=31;
+		break;
+	case 4,6,9,11:
+		dias=30;
+	default:
+		dias=28;
+}
+
+*********************************
+
+Bucle do-while:
+Ejecuta las instrucciones mientras la condicion se cumpla.
+Primero ejecuta y luego comprueba la condicion.
+
+Para Python no aplica
+
+Para C++
+do{
+instrucciones;
+}while (condicion);
+
+Pra aplicaciones donde se necesita primero hacer una accion, 
+por ejemplo la comprobacion del pin de una tarjeta en un cajero automatico
+
+*********************************
+
+Bucle while:
+Primero conprueba y luego ejecuta
+
+Python:
+while condicion:
+	insrtrucciones
+	
+Para C++
+while(condicion){
+instrucciones;
+}
+
+*********************************
+
+Bucle for:
+
+
+Para Python: 
+for variable in elemento_iterable:
+	instrucciones
+
+Para C++
+for (inicio;condicion;iteracion){
+instrucciones;
+}
+
+ejemplo imprimir la tabla del 7
+
+Python:
+for i in (1,11):
+	print "7 x ",i," = ",7*1
+
+para C++
+
+for(i=1;i<=10,i++){
+cout<<"7 x "<<i<<" = "<<7*1;
+
+*********************************
+
