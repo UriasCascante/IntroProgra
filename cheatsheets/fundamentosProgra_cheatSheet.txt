@@ -6,15 +6,15 @@ IF/ELSE:
 
 Para Python:
 if condicion:
-	insrtrucciones
+	instrucciones
 else:
-	insrtrucciones
+	instrucciones
 	
 Para C++
 if(condicion){
 	instrucciones;
 }else{
-	insrtrucciones;
+	instrucciones;
 }
 
 elif --> contraccion para elseif - para anidar if/else
@@ -79,7 +79,7 @@ Primero conprueba y luego ejecuta
 
 Python:
 while condicion:
-	insrtrucciones
+	instrucciones
 	
 Para C++
 while(condicion){
@@ -112,4 +112,46 @@ for(i=1;i<=10,i++){
 cout<<"7 x "<<i<<" = "<<7*1;
 
 *********************************
+PROGRAMACION ESTRUCTURADA
+*********************************
 
+FUNCIONES:
+
+Creamos funciones con piezas de codigo dentro que se va a estar utilizando de forma recurrente.
+Esto ayuda a simplificar y optimizar el codigo.
+
+Como definir una funcion:
+
+Python:
+def nombreFunc(var1,var2=valorDefault):
+	instrucciones
+	return valor
+
+Para llamarla ---> nombreFunc(valor1,valor2)
+
+En C++:
+tipoFunc nombreFunc(tipo var1,tipo var2){
+	instrucciones;
+	return valor;
+}
+
+para llamarla nombreFunc(valor1,valor2);
+
+*********************************
+
+PUNTEROS:
+varianles que en lugar de almacenar un valor, alamcenan la direccion de la memoria
+donde se almacena el valor de otra variable.
+
+Los punteros solo existen en la mayoria de los lenguajes tipados, por lo tanto en Python no aplica
+
+En C++:
+tipo*nombre_puntero;
+tipo variable;
+nombre_puntero = &variable;
+
+*********************************
+
+RECURSIVIDAD:
+Una funcion recursiva es una funcion que se llama a si misma, pero cambiando los parametros cada vez.
+Se utiliza para optimizar el codigo y hacerlo mucho mas eficiente.
