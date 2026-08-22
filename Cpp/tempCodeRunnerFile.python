@@ -1,0 +1,11 @@
+
+array = []
+
+sum = 0
+
+for i in range(5):
+    array.append(int(input("Enter a number: ")))
+    sum += array[i]
+
+print("The sum of the numbers is:", sum)
+
